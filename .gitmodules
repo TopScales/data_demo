@@ -1,0 +1,6 @@
+[submodule "addons/logerr"]
+	path = addons/logerr
+	url = git@github.com:TopScales/logerr.git
+[submodule "addons/true_data"]
+	path = addons/true_data
+	url = git@github.com:TopScales/true_data.git

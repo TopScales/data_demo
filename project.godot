@@ -1,0 +1,49 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Data Demo"
+config/version="0.1.1"
+run/main_scene="uid://beqadbb2h07vj"
+config/features=PackedStringArray("4.6", "Forward Plus")
+config/icon="res://assets/icons/system/icon.svg"
+
+[autoload]
+
+Err="*uid://q3kshlvkh7cb"
+Benchmark="*uid://10n5kfm55fea"
+Data="*uid://bt380fpgt5psr"
+
+[debug]
+
+file_logging/enable_file_logging.pc=false
+gdscript/warnings/directory_rules={
+"res://addons": 0,
+"res://addons/true_data": 1
+}
+gdscript/warnings/return_value_discarded=1
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/logerr/plugin.cfg", "res://addons/true_data/plugin.cfg")
+
+[file_customization]
+
+folder_colors={
+"res://addons/": "gray",
+"res://assets/": "yellow",
+"res://data/": "green",
+"res://docs/": "blue",
+"res://scenes/": "orange",
+"res://scripts/": "purple",
+"res://tests/": "pink",
+"res://tools/": "teal"
+}
