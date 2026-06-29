@@ -1,0 +1,7 @@
+[gd_resource type="Resource" format=3 uid="uid://bsth2u6046587"]
+
+[ext_resource type="Script" uid="uid://y2dc4f65y1i5" path="res://scripts/float_resource.gd" id="1_3rjds"]
+
+[resource]
+script = ExtResource("1_3rjds")
+plain_float_default = 8.32

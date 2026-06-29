@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://crk6c78tngpdo"]
+
+[ext_resource type="Script" uid="uid://bvj2y378b7551" path="res://scripts/int_resource.gd" id="1_nj76d"]
+
+[resource]
+script = ExtResource("1_nj76d")
+plain_int_no_default = 1074
+plain_int_default = -4501
+int_range = 5
+int_enum = 2
+int_flags = 2

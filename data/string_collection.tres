@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="DataCollectionArray" format=3 uid="uid://cwfc7bonkj6u"]
+
+[ext_resource type="Script" uid="uid://2xj5hgo8deca" path="res://addons/true_data/classes/data_collection_array.gd" id="1_8ilgq"]
+[ext_resource type="Script" uid="uid://csprvbo4alrkd" path="res://scripts/string_resource.gd" id="1_q703y"]
+
+[sub_resource type="Resource" id="Resource_xmeso"]
+script = ExtResource("1_q703y")
+string_enum = "Option 2"
+file = "res://scripts/int_resource.gd"
+directory = "res://scripts"
+
+[sub_resource type="Resource" id="Resource_q703y"]
+script = ExtResource("1_q703y")
+
+[sub_resource type="Resource" id="Resource_wj5ym"]
+script = ExtResource("1_q703y")
+
+[sub_resource type="Resource" id="Resource_pi2cx"]
+script = ExtResource("1_q703y")
+string_enum = "Option 2"
+
+[sub_resource type="Resource" id="Resource_c4sln"]
+script = ExtResource("1_q703y")
+
+[resource]
+script = ExtResource("1_8ilgq")
+arr = Array[Resource]([SubResource("Resource_xmeso"), SubResource("Resource_q703y"), SubResource("Resource_wj5ym"), SubResource("Resource_pi2cx"), SubResource("Resource_c4sln"), SubResource("Resource_c4sln")])
+metadata/_custom_type_script = "uid://2xj5hgo8deca"

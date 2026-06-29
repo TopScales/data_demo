@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="DataCollections" format=3 uid="uid://dorhjtbxw7r8w"]
+
+[ext_resource type="Script" uid="uid://bhpbo5qj2vgqi" path="res://addons/true_data/classes/collection.gd" id="2_8thgl"]
+[ext_resource type="Script" uid="uid://dixrnfa12875d" path="res://addons/true_data/classes/data_collections.gd" id="5_87y3n"]
+
+[resource]
+script = ExtResource("5_87y3n")
+items_script = ExtResource("2_8thgl")
+metadata/_custom_type_script = "uid://dixrnfa12875d"
