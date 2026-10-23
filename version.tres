@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Version" format=3 uid="uid://ks8d1iw813k7"]
+
+[ext_resource type="Script" uid="uid://c0wnjvdj830qf" path="res://scenes/game/version.gd" id="1_qlspv"]
+
+[resource]
+script = ExtResource("1_qlspv")
+minor = 1
+patch = 2
+status = "pre-alpha"
+nickname = "UIs"
+metadata/_custom_type_script = "uid://c0wnjvdj830qf"

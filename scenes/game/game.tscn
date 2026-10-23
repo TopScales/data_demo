@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://c6gaxw7y1miyr"]
+
+[ext_resource type="Script" uid="uid://daffjtdshg0lb" path="res://scenes/game/game.gd" id="1_8t8cc"]
+[ext_resource type="Resource" uid="uid://ks8d1iw813k7" path="res://version.tres" id="2_kelw5"]
+[ext_resource type="Script" uid="uid://e2mb5qsiryod" path="res://scenes/game/settings.gd" id="2_xkch1"]
+[ext_resource type="Script" uid="uid://rhfprp7p3rk" path="res://scenes/game/saver.gd" id="4_kelw5"]
+
+[node name="Game" type="Node" unique_id=499930256]
+script = ExtResource("1_8t8cc")
+version = ExtResource("2_kelw5")
+main_scene_path = "uid://beqadbb2h07vj"
+metadata/_custom_type_script = "uid://daffjtdshg0lb"
+
+[node name="Settings" type="Node" parent="." unique_id=1255801508]
+script = ExtResource("2_xkch1")
+metadata/_custom_type_script = "uid://e2mb5qsiryod"
+
+[node name="Saver" type="Node" parent="." unique_id=1179158221]
+script = ExtResource("4_kelw5")
+num_save_files = 1
+metadata/_custom_type_script = "uid://rhfprp7p3rk"
